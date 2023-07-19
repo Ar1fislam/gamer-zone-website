@@ -150,6 +150,11 @@ main {
         display: grid;
         grid-template-columns: repeat(2,1fr);
     }
+    .overlay {
+        height: 88.5%;
+        width: 94%;
+       
+      }
 }
 
 /* Medium devices */
