@@ -3,8 +3,8 @@
 
     
 main {
-    width: 100%;
-    margin: 10px auto;
+    width: 85%;
+    margin: 5px auto;
 }
     .nav-container,
     .nav-items-container, .card-container {
@@ -71,15 +71,13 @@ main {
     }
     
     .play-instant-container {
-        display: flex;
         flex-direction: column;
-        /* justify-content: space-between; */
-        align-items: center;
+        align-content:flex-start;
         gap: 20px;
     }
     .play-instant-text {
         width: 100%;
-        margin: 30px auto;
+        margin: 0px auto;
     
     
     }
@@ -90,33 +88,68 @@ main {
         margin-top: 20px;
     
     }
+    .play-instant-text .section-title{
+        font-size: 1.5rem;
+    }
+    .play-instant-text .section-description{
+        font-size: 1rem;
+    }
     .instant-img-1 img {
         width: 100%;
         margin: 0 auto;
     
     }
+    .instant-img-2 img{
+        width: 60%;
+    }
     .instant-img-2 {
         position: relative;
         left: -40%;
-        top: 350px;
+        top: 220px;
     }
     
 
      .games {
-        margin-top: 100px;
-        /* margin-left: 50px; */
         width: 100%;
-        /* width: 100%; */
-        margin: 0 auto;
+        margin: 300px 0 100px;
     }
-     .games-container {
-        
-       display: flex;
-       flex-wrap: wrap;
-       gap: 20px;
-      }
+    .game-btn img{
+        width: 50%;
+    }
+    .game-btn p{
+        font-size: 0.4rem;
+    }
+    .category-btn {
+        border-radius: 10px;
+        gap: 2px;
+        background: #FFF;
+        padding: 0px;
+        border: none;
+    }
     
- 
+     .games-container{
+        width: 100%;
+       display: flex;
+    /* flex-direction: column; */
+       /* grid-template-columns: repeat(3,1fr); */
+       /* grid-template-columns: repeat(3,1fr); */
+       flex-wrap: wrap;
+       gap: 5px;
+      }
+      .button6 {
+        margin-left: 0px;
+    }
+    footer{
+        width: 100%;
+    }
+    .footer-details{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+    }
+    .footer-terms-policy{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
 }
 
 /* Medium devices */
@@ -181,5 +214,97 @@ main {
         gap: 30px;
 
      }
+
+     .card-container{
+        width: 100%;
+        margin: 30px auto;
+        gap: 30px;
+
+     }
+     .play-instant {
+        width: 80%;
+        margin-top: 50px;
+        /* margin-left: 90px; */
+    
+    }
+    
+    .play-instant-container {
+        flex-direction: column;
+        align-content:flex-start;
+        gap: 20px;
+    }
+    .play-instant-text {
+        width: 100%;
+        margin: 0px auto;
+    
+    
+    }
+    
+    .play-instant-text .section-title,
+    .play-instant-text .section-description {
+        text-align: center;
+        margin-top: 20px;
+    
+    }
+    .play-instant-text .section-title{
+        font-size: 1.5rem;
+    }
+    .play-instant-text .section-description{
+        font-size: 1rem;
+    }
+    .instant-img-1 img {
+        width: 100%;
+        margin: 0 auto;
+    
+    }
+    .instant-img-2 img{
+        width: 60%;
+    }
+    .instant-img-2 {
+        position: relative;
+        left: -30%;
+        top: 380px;
+    }
+    
+
+     .games {
+        /* margin-top: 100px; */
+        /* margin-left: 50px; */
+        width: 100%;
+        /* width: 100%; */
+        margin: 500px auto 100px;
+    }
+    .category-btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+        gap: 2px;
+        background: #FFF;
+        padding: 0px;
+        border: none;
+    }
+    
+     .games-container{
+        margin-top: 200px;
+        width: 100%;
+       display: flex;
+       flex-wrap: wrap;
+       gap: 10px;
+      }
+      .button6 {
+        margin-left: 0px;
+    }
+    footer{
+        width: 100%;
+    }
+    .footer-details{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+    }
+    .footer-terms-policy{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
   
 }
