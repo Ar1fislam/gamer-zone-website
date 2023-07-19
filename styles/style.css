@@ -16,7 +16,32 @@
     color: #8758F1;
 }
 
-/* header styles */
+.section-title {
+    color: #0B0223;
+    text-align: center;
+    font-size: 2.7rem;
+    font-weight: 700;
+}
+
+.section-description {
+    color: #534C64;
+    font-size: 1.4rem;
+    font-weight: 500;
+
+}
+.btn-primary{
+    border-radius: 40px;
+    border: 0px;
+    color: #FFF;
+    font-size: 1.4rem;
+    font-weight: 600;
+    padding: 15px 35px;
+    text-transform: uppercase;
+    margin-top: 40px;
+    margin-right: 20px;
+}
+
+/* ------header styles------ */
 
 /* navbar styles */
 nav {
@@ -74,13 +99,81 @@ nav {
     text-decoration: none;
 }
 
-.fa-brands{
+.fa-brands {
     font-size: 20px;
 }
-.fa-youtube{
+
+.fa-youtube {
     color: #F61C0D;
 }
-.fa-tiktok{
-    color: #000000;  
+
+.fa-tiktok {
+    color: #000000;
     filter: drop-shadow(2px 0px 0px #F00044) drop-shadow(-2px -2px 0px #08FFF9);
 }
+
+/* banner styles */
+
+.banner-container {
+    margin: 0 auto;
+    max-width: 100%;
+    min-height: 50px;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    gap: 30px;
+  }
+  
+  .banner-container-left {
+    width: 50%;
+    /* height: 700px; */
+    background-image: url('../images/group14.png'), linear-gradient(223deg, rgba(140, 87, 238, 0.03) 0%, rgba(241, 68, 174, 0.03) 100%);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 40px;
+  }
+  
+
+  
+  .banner-container-left h2 {
+    text-align: left;
+    font-weight: 600;
+  }
+  
+  .banner-container-left h3 {
+    background-image: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    color: transparent;
+    -webkit-background-clip: text;
+    text-align: left;
+    font-size: 5.5rem;
+    font-weight: 800;
+    text-transform: uppercase;
+  }
+  
+  .banner-icon {
+    margin-right: 10px;
+  }
+  .btn{
+    display: flex;
+    gap:10px;
+  }
+  
+  .btn-1 {
+    background-color: #F948B2;
+  }
+  
+  .btn-2 {
+    background-color: #4EC5F7;
+  }
+  
+  .banner-container-right {
+    width: 50%;
+  }
+  .banner-container-right img{
+    width: 80%;
+  }
+  
