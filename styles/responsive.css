@@ -2,7 +2,7 @@
 @media screen and (max-width: 576px) {
 
     .nav-container,
-    .nav-items-container {
+    .nav-items-container, .card-container {
         flex-direction: column;
 
     }
@@ -52,13 +52,20 @@
     .btn-primary{
         padding:10px 20px;
     }
+    .card-container{
+        width: 100%;
+        margin: 30px auto;
+        gap: 30px;
+
+     }
+ 
 }
 
 /* Medium devices */
 @media screen and (min-width:576px) and (max-width: 960px) {
 
     .nav-container,
-    .nav-items-container {
+    .nav-items-container{
         flex-direction: column;
 
     }
@@ -108,6 +115,13 @@
     .btn-primary{
         padding:10px 20px;
     }
-    
+    .card-container{
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        margin: 30px auto;
+        gap: 30px;
+
+     }
   
 }
