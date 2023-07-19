@@ -1,6 +1,11 @@
 /* Small devices */
 @media screen and (max-width: 576px) {
 
+    
+main {
+    width: 100%;
+    margin: 10px auto;
+}
     .nav-container,
     .nav-items-container, .card-container {
         flex-direction: column;
@@ -58,6 +63,59 @@
         gap: 30px;
 
      }
+     .play-instant {
+        width: 80%;
+        margin-top: 50px;
+        /* margin-left: 90px; */
+    
+    }
+    
+    .play-instant-container {
+        display: flex;
+        flex-direction: column;
+        /* justify-content: space-between; */
+        align-items: center;
+        gap: 20px;
+    }
+    .play-instant-text {
+        width: 100%;
+        margin: 30px auto;
+    
+    
+    }
+    
+    .play-instant-text .section-title,
+    .play-instant-text .section-description {
+        text-align: center;
+        margin-top: 20px;
+    
+    }
+    .instant-img-1 img {
+        width: 100%;
+        margin: 0 auto;
+    
+    }
+    .instant-img-2 {
+        position: relative;
+        left: -40%;
+        top: 350px;
+    }
+    
+
+     .games {
+        margin-top: 100px;
+        /* margin-left: 50px; */
+        width: 100%;
+        /* width: 100%; */
+        margin: 0 auto;
+    }
+     .games-container {
+        
+       display: flex;
+       flex-wrap: wrap;
+       gap: 20px;
+      }
+    
  
 }
 
