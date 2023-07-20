@@ -128,6 +128,7 @@ main {
     }
     
      .games-container{
+        margin-top: 200px;
         width: 100%;
        display: flex;
     /* flex-direction: column; */
@@ -135,6 +136,9 @@ main {
        /* grid-template-columns: repeat(3,1fr); */
        flex-wrap: wrap;
        gap: 5px;
+      }
+      .button1{
+        margin-left: 0px;
       }
       .button6 {
         margin-left: 0px;
@@ -151,8 +155,8 @@ main {
         grid-template-columns: repeat(2,1fr);
     }
     .overlay {
-        height: 88.5%;
-        width: 94%;
+        height: 100%;
+        width: 95%;
        
       }
 }
@@ -295,10 +299,21 @@ main {
         width: 100%;
        display: flex;
        flex-wrap: wrap;
-       gap: 10px;
+       gap: 20px;
       }
       .button6 {
         margin-left: 0px;
+    }
+    .button1{
+        margin-left: 0px;
+    }
+   
+    .category-btn{
+        border-radius: 40px;
+        padding: 5px;
+    }
+    .game-btn p{
+        font-size: .8rem;
     }
     footer{
         width: 100%;

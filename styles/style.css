@@ -274,13 +274,7 @@ nav {
     width: 100%;
 }
 
-.games-container {
-    display: grid;
-    grid-template-areas:
-        "button1 button2 button3 button4 button5"
-        "button6 button7 button8 button9 .";
-    grid-gap: 10px;
-}
+
 
 .game-btn {}
 
@@ -294,13 +288,18 @@ nav {
     padding: 5px;
     border: none;
 }
-
+.game-btn{
+    width: max-content;
+}
 .button1 {
     grid-area: button1;
+    margin-left: 40px;
+ 
 }
 
 .button2 {
     grid-area: button2;
+   
 }
 
 .button3 {
@@ -322,6 +321,7 @@ nav {
 
 .button7 {
     grid-area: button7;
+ 
 }
 
 .button8 {
@@ -330,6 +330,14 @@ nav {
 
 .button9 {
     grid-area: button9;
+}
+.games-container {
+    display: grid;
+    grid-template-areas:
+        "button1 button2 button3 button4 button5"
+        "button6 button7 button8 button9 .";
+ 
+    grid-gap: 10px;
 }
 
 .game-btn p {
@@ -415,14 +423,17 @@ footer .footer-logo-container {
 
 /* overlay styles */
 
-
+.card{
+    display: flex;
+    flex-direction: column;
+}
 .overlay {
     position: absolute;
     top: 0;
     bottom: 0;
     left: 0;
     right: 0;
-    height: 88%;
+    height: 100%;
     width: 100%;
     opacity: 0;
     background-color: rgb(34, 31, 31);
@@ -430,13 +441,20 @@ footer .footer-logo-container {
   }
 
  
-.card{
+.card-hover{
     position: relative;
+   
+ 
 }
-  .card:hover .overlay {
+
+
+  .card-hover:hover .overlay {
     opacity: .7;
+    
   }
 
+  
+  
   .icon-overlay {
     color: #FFF;
     font-size: 100px;
